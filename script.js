@@ -5,25 +5,20 @@ const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader')
 
-//  loading a quote
-function loading (){
+function ShowloadingSpinner(){
   loader.hidden = false
   quoteContainer.hidden = true;
 }
 
-function complete(){
+function removeLoadingSpinner(){
   if(!loader.hidden){
     quoteContainer.hidden = false;
     loader.hidden = true
   }
 }
 
-
-
-// Get Quote
 async function getQoute() {
- 
-  loading ()
+  ShowloadingSpinner()
   const apiUrl =
     'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
 
@@ -44,9 +39,11 @@ async function getQoute() {
     }
 
     quoteText.innerText = data.quoteText;
-    complete()
+    removeLoadingSpinner()
+   
   } catch (error) {
     console.log('whoop!, no quote', error);
+    getQoute()
   }
 }
 
