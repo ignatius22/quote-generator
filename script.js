@@ -11,17 +11,18 @@ function loading (){
   quoteContainer.hidden = true;
 }
 
-// hide loader
 function complete(){
   if(!loader.hidden){
     quoteContainer.hidden = false;
-    loader.hidden = true;
+    loader.hidden = true
   }
 }
 
+
+
 // Get Quote
 async function getQoute() {
-  // Load
+ 
   loading ()
   const apiUrl =
     'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
@@ -43,10 +44,7 @@ async function getQoute() {
     }
 
     quoteText.innerText = data.quoteText;
-
-    // stop loader, show quote
     complete()
-
   } catch (error) {
     console.log('whoop!, no quote', error);
   }
@@ -64,6 +62,6 @@ function getTweet(){
 newQuoteBtn.addEventListener('click',getQoute)
 twitterBtn.addEventListener('click',getTweet)
 
-
+getQoute()
 
 
