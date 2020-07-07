@@ -13,7 +13,7 @@ This page is a qoute generator page, this project has been an exercise of using 
 
 ## Live Demo
 
-Live link here: https://ignatius22.github.io/music-player/
+Live link here: https://ignatius22.github.io/quote-generator/
 
 
 ## Authors
