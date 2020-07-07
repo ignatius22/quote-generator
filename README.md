@@ -16,9 +16,9 @@ This page is a qoute generator page, this project has been an exercise of using 
 Live link here: https://ignatius22.github.io/quote-generator/
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Author**
 Ignatius Sani:
 - Github: https://github.com/ignatius22 
 - Linkedin: https://www.linkedin.com/in/ignatiussani 
