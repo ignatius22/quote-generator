@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=jacinto.design">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-	<link rel="stylesheet" href="style.css">
-	<title>Quote generator</title>
-</head>
-<body>
-		<div class="quote-container" id="quote-container">
-			<!-- Quote -->
-				<div class="quote-text">
-					<i class="fas fa-quote-left"></i>
-					<span class="quote" id="quote"></span>
-				</div>
-				<!-- Author -->
-				<div class="quote-author">
-					<span id="author"></span>
-				</div>
-				<!-- button -->
-				<div class="button-container">
-					<button class="twitter-button" title="Tweet This!" id="twitter">
-						<i class="fab fa-twitter"></i>
-					</button>
-					<button class="new-quote" id="new-quote">New Quote</button>
-				</div>
-		</div>
-		<!-- loader -->
-		<div class="loader" id="loader"></div>
-		<!-- script -->
-		<script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quote generator</title>
+  </head>
+  <body>
+    <div class="quote-container" id="quote-container">
+      <!-- Quote -->
+      <div class="quote-text">
+        <i class="fas fa-quote-left"></i>
+        <span class="quote" id="quote"></span>
+      </div>
+      <!-- Author -->
+      <div class="quote-author">
+        <span id="author"></span>
+      </div>
+      <!-- button -->
+      <div class="button-container">
+        <button class="twitter-button" title="Tweet This!" id="twitter">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button class="new-quote" id="new-quote">New Quote</button>
+      </div>
+    </div>
+    <!-- loader -->
+    <div class="loader" id="loader"></div>
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
 </html>

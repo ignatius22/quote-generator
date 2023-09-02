@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Noto Sans Cham
+- Font Author: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)
+- Font Source: http://fonts.gstatic.com/s/notosanscham/v27/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcERwcv7GykboaLg.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
